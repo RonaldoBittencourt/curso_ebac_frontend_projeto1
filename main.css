@@ -36,10 +36,15 @@ header nav a {
     text-decoration: none;
 }
 
-.container {
+.container,
+h2 {
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
+}
+
+h2 {
+    padding: 10px;
 }
 
 header .container,
@@ -47,6 +52,7 @@ section .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 10px;
 }
 
 header img {
@@ -61,15 +67,56 @@ header img {
 }
 
 .engravings img {
-    height: auto;
+    height: 100%;
 }
 
 .engravings li {
     display: flex;
     margin-right: 8px;
     margin-bottom: 8px;
+    align-items: center;
 }
 
-.engravings p {
+.engravings p,
+h3 {
+    margin-left: 8px;
     box-sizing: border-box;
+}
+
+.skills img {
+    height: 60px;
+}
+
+#skills .container {
+    text-align: center;
+    justify-content: start;
+    align-items: start;
+}
+
+#skills .container .skills {
+    max-width: 480px;
+    margin: 8px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills-item {
+    padding: 10px;
+    width: 120px;
+}
+
+.skills-item h4:first-child {
+    margin: 4px;
+}
+
+.skills h3 {
+    text-align: left;
+}
+
+.skills-text {
+    max-width: 650px;
+    text-align: justify;
 }
