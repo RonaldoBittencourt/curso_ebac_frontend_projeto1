@@ -117,6 +117,85 @@ h3 {
 }
 
 .skills-text {
-    max-width: 650px;
+    max-width: 705px;
     text-align: justify;
+}
+
+#acessories .container {
+    text-align: center;
+    justify-content: start;
+    align-items: center;
+}
+
+.acessories img {
+    height: 100%;
+    width: 89px;
+}
+
+.acessories-item {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.acessories-text {
+    max-width: 1115px;
+    align-items: start;
+    text-align: justify;
+}
+
+.acessories p {
+    margin-left: 8px;
+}
+
+.contact .container{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 10px;
+    width: 1280px;
+}
+
+form input,
+textarea,
+select,
+button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+}
+
+.formulario form input,
+select {
+    margin-bottom: 22px;
+}
+
+.formulario {
+    align-items: start;
+}
+
+input:focus,
+textarea:focus {
+    outline-color: #2c2a2a;
+}
+
+.profile {
+    margin-left: 8px;
+}
+
+.profile img {
+    width: 100%;
+    height: auto;
+    padding-right: 40px;
+}
+
+footer {
+    background-color: #000;
+    color: #ecf0f1;
+    padding: 16px 0;
 }
